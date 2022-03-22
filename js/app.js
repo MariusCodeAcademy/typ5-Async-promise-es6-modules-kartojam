@@ -18,3 +18,4 @@ sayHi();
 // helper/print.js failiukas
 // isekportuoti funkcija printToh2 kuri paima laika is timePrint(pasieditinti kad ne tik atspausdintu bet ir grazintu)
 // ir atspausdina h2 el DOM.
+// su setInterval atnaujinti laika kas sekunde
