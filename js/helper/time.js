@@ -4,5 +4,9 @@ const printTime = function () {
   console.log(time);
 };
 
+export const sayHi = () => {
+  console.log('Hi');
+};
+
 // numatytatis exportas importuojasi be {}
 export default printTime;
