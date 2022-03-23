@@ -58,8 +58,9 @@ function evenOrOdd(arr) {
   // sudeti visus arr sks i viena
   let total = 0;
   arr.forEach((sk) => {
-    total += sk;
+    total = total + sk;
   });
+
   // patiktrinti ar gauta reikme lygini ar ne
   // if (total % 2 === 0) {
   //   return 'even';
