@@ -3,8 +3,13 @@ import { sum, multi } from './helper/sum.js';
 import { minus } from './helper/minus.js';
 // import is default export
 import timePrint, { sayHi } from './helper/time.js';
+import { printToh2 } from './helper/print.js';
 
+// printToh2();
 timePrint();
+
+setInterval(printToh2, 1000);
+
 const total = sum(15, 50);
 
 console.log('total ===', total);
